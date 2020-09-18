@@ -1,0 +1,13 @@
+#@title Texto de título predeterminado { run: "auto", vertical-output: true }
+np = "4" #@param ["1", "2", "3", "4"]
+
+if np == "1":
+        print ("fallo en el refresco de la memoria")
+elif np == "2":
+          print (" fallo de memoria. Error de paridad")
+elif np == "3":
+      print("Fallo en la memoria base de 64K")
+elif np == "4":
+      print("fallo en el timer del sistema.")
+else:
+      print ("Error desconocido")
